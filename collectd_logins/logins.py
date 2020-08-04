@@ -42,8 +42,8 @@ def read():
     data = [
         ("sessions", "unique_users", unique_users),
         ("sessions", "total", total),
-        ("logins", "total_last_hour", logins),
-        ("logins", "failed_last_hour", failed_logins)
+        ("logins", "successful", logins),
+        ("logins", "failed", failed_logins)
 
     ]
 
