@@ -13,8 +13,7 @@ TypesDB "/opt/collectd_logins/logins_types.db"
   ModulePath "/opt/collectd_logins"
   Import "logins"
   <Module logins>
-    Interval 5
-    Window 3600
+    Interval 30
   </Module>
 </Plugin>
 ```
