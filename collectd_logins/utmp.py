@@ -2,6 +2,8 @@ import datetime
 import struct
 import collectd
 from collections import namedtuple
+from plugin import PLUGIN_NAME
+
 try:
     from enum import Enum
 except ImportError:

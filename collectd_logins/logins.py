@@ -1,10 +1,7 @@
 import collectd
 import datetime
 import utmp
-
-PLUGIN_NAME = "logins"
-INTERVAL = 5
-LOGINS_WINDOW = datetime.timedelta(hours=1)
+from plugin import PLUGIN_NAME, INTERVAL, LOGINS_WINDOW
 
 try:
     import psutil
