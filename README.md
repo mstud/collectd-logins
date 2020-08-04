@@ -4,6 +4,8 @@ collectd python plugin for tracking user sessions and logins
 Requires the following python2 modules: 
  - psutil
  - enum34
+ 
+Also, the collectd python plugin needs to be available, of course.
 
 Example configuration:
 ```
