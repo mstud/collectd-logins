@@ -10,7 +10,7 @@ Example configuration:
 LoadPlugin python
 TypesDB "/opt/collectd_logins/logins_types.db"
 <Plugin python>
-  ModulePath "/opt/collectd_logins/logins"
+  ModulePath "/opt/collectd_logins"
   Import "logins"
   <Module logins>
     Interval 5
