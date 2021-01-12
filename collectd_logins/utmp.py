@@ -26,7 +26,7 @@ class UTmpRecordType(Enum):
 
 def convert_string(val):
     if isinstance(val, bytes):
-        return val.rstrip(b'\0').decode()
+        return val.rstrip(b'\0').decode("utf-8").encode("ascii","ignore")
     return val
 
 
